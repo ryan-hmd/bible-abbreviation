@@ -1,4 +1,4 @@
-import unidecode from 'unidecode';
+const unidecode = require('unidecode');
 const canonAbbrv: CanonAbbrv = require('../static/canonAbbrv.json');
 const bookName: BookTitleMap = require('../static/bookName.json');
 
