@@ -3,8 +3,8 @@ const canonAbbrv: CanonAbbrv = require('../static/canonAbbrv.json');
 const bookName: BookTitleMap = require('../static/bookName.json');
 
 /**
- * Retourne une abbréviation universelle pour l'API pour le livre demandé s'il existe.
- * - Les abbréviations supportées sont consultables dans le fichier `canonAbbrv.json`
+ * Returns a universal API abbreviation for the requested book if it exists.
+ * - Supported abbreviations are available in the `canonAbbrv.json` file.
  */
 export const bookTag = (abbrv: string) => {
     const match = unidecode(abbrv.toLowerCase().replace(/ /g, ''));
@@ -14,9 +14,9 @@ export const bookTag = (abbrv: string) => {
 }
 
 /**
- * Retourne un titre pour le livre demandé s'il existe dans l'un des trois formats suivant (`short` par défaut):
- * - `long` — Titre détaillé (ex: Mt → Evangile selon saint Matthieu)
- * - `short` — Titre abbrégé du livre (ex: 2 Th → 2 Thessaloniciens)
+ * Returns a title for the requested book if it exists in one of the three following formats (`short` by default):
+ * - `long` — Detailed title (ex: Mt → Evangile selon saint Matthieu)
+ * - `short` — Short book title (ex: 2 Th → 2 Thessaloniciens)
  * - `tiny` — Abbréviation standard (ex: Génèse → Gn)
  */
 export const bookTitle = (book: string, size: string = 'short') => {
