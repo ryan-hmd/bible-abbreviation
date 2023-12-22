@@ -7,8 +7,9 @@ const bookName: BookTitleMap = require('../static/bookName.json');
  * - Les abbréviations supportées sont consultables dans le fichier `canonAbbrv.json`
  */
 export const bookTag = (abbrv: string) => {
+    const match = unidecode(abbrv.toLowerCase().replace(/ /g, ''));
     return Object.keys(canonAbbrv)
-        .find(book => canonAbbrv[book].includes(unidecode(abbrv.toLowerCase())))
+        .find(book => canonAbbrv[book].includes(match))
         || null;
 }
 
