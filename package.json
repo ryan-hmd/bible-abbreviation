@@ -1,6 +1,6 @@
 {
   "name": "bible-abbreviation",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Obtain the universal abbreviation or title of a Bible book in different languages.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
