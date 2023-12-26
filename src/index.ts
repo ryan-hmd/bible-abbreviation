@@ -1,4 +1,3 @@
 export {
-    bookTag,
-    bookTitle
+    Abbreviator
 } from './nameServices'
