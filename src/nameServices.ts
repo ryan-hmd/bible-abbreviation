@@ -95,7 +95,7 @@ export class Abbreviator {
      * Checkout the `setSize` method to persistantly set the default size to what you want.
      * If you just want a different size for one time, you can set the parameter size to what you want, it won't change the default value.
      */
-    getBookTitle(book: string, size: string = "") {
+    getTitle(book: string, size: string = "") {
         const tag = this.getTag(book);
         if (!tag) return null;
         switch(size.toLowerCase()) {
