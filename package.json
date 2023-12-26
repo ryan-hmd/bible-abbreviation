@@ -1,6 +1,6 @@
 {
   "name": "bible-abbreviation",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Easily obtain the universal identifiers and full names of the books of the Bible in a variety of formats and languages.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
