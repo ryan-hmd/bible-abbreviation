@@ -50,7 +50,7 @@ The second feature of this module is the `getTitle` method, which generates a ti
 
 ```js
 const abbrv = new Abbreviator();
-const matthewTitle = abbrv.getTag('Matt');
+const matthewTitle = abbrv.getTitle('Matt');
 console.log(matthewTitle); // output : 'Matthew'
 ```
 
@@ -59,7 +59,7 @@ By default, the Abbreviator is set to English, but **you can also directly insta
 ```js
 // abbreviator in french
 const abbrv = new Abbreviator('fr');
-const matthewTitle = abbrv.getTag('Matt');
+const matthewTitle = abbrv.getTitle('Matt');
 console.log(matthewTitle); // output : 'Matthieu'
 ```
 
