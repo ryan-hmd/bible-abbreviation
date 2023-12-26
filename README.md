@@ -107,7 +107,7 @@ For a better user experience, the `Abbreviator` class methods don't throw any ex
 <a name="languages"></a>
 ## 🌍 Internationalization
 
-English and French are the only two languages supported at the moment. We'll be working on integrating other languages in the future, but if you'd like to see a language available on the module quickly, please open a PR on our [Github](https://github.com/ryan-hmd/bible-ref-parser/pulls).
+English and French are the only two languages supported at the moment. We'll be working on integrating other languages in the future, but if you'd like to see a language available on the module quickly, please open a PR on our [Github](https://github.com/ryan-hmd/bible-abbreviation/pulls).
 
 <a name="notes"></a>
 ## ❓ Notes
