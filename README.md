@@ -10,6 +10,7 @@ Easily obtain the universal identifiers and full names of the books of the Bible
     * [Get universal book tag](#first-feature)
     * [Get title for a given book](#second-feature)
 * [Languages](#languages)
+* [Notes](#notes)
 * [Contribute](#contribute)
 * [License](#license)
 
@@ -100,6 +101,13 @@ console.log(matthewTitle) // output : Gospel according to Matthew
 ## 🌍 Internationalization
 
 English and French are the only two languages supported at the moment. We'll be working on integrating other languages in the future, but if you'd like to see a language available on the module quickly, please open a PR on our [Github](https://github.com/ryan-hmd/bible-ref-parser/pulls).
+
+<a name="notes"></a>
+## ❓ Notes
+
+As the class is designed so that parameters can be modified at any time, it is theoretically unnecessary to instantiate multiple `Abbreviator` objects. As each instance of `Abbreviator` loads a JSON file in the corresponding language, it is strongly recommended not to instantiate multiple objects of the `Abbreviator` class for performance optimization reasons.
+
+We're working on a new structure for the i18n internationalization folder to optimize data loading. This improvement is not a high priority, since the module currently supports only two languages, but the release of this optimization will be backward-compatible.
 
 <a name="contribute"></a>
 ## 💻 Contribute
