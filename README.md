@@ -18,7 +18,7 @@ Easily obtain the universal identifiers and full names of the books of the Bible
 ## ⚙️ Installation
 
 ```bash
-npm install bible-ref-parser
+npm install bible-abbreviation
 ```
 
 <a name="usage"></a>
