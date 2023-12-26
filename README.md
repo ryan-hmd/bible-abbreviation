@@ -9,7 +9,8 @@ Easily obtain the universal identifiers and full names of the books of the Bible
 * [Usage](#usage)
     * [Get universal book tag](#first-feature)
     * [Get title for a given book](#second-feature)
-* [Languages](#languages)
+    * [Error handling](#error-handling)
+* [Internationalization](#languages)
 * [Notes](#notes)
 * [Contribute](#contribute)
 * [License](#license)
@@ -96,6 +97,12 @@ console.log(matthewTitle) // output : "Matthew"
 matthewTitle = abbrv.getTitle('Matthew'); // no explicit format here so the method return the title with the default size
 console.log(matthewTitle) // output : Gospel according to Matthew
 ```
+
+<a name="error-handling"></a>
+### ⚡ Error handling
+
+For a better user experience, the `Abbreviator` class methods don't throw any exceptions. The `getTag` and `getTitle` methods will return `null` if the book provided as a parameter does not exist. For `getTitle`, if the given format is unknown, the default parameter previously defined (by the constructor or by you) will be used. In the same way, for `setSize` and `setLang`, if the respective parameters provided are not supported, the default parameters will be reset to their initial values, `short` and `en_US` respectively. Finally, to optimize loading of i18n data, if you try to set the language to the same value as the current one, the class will detect it and will not make any changes.
+
 
 <a name="languages"></a>
 ## 🌍 Internationalization
