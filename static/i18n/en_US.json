@@ -1,0 +1,367 @@
+{
+    "GN": {
+        "long": "Book of Genesis",
+        "short": "Genesis",
+        "tiny": "Gen"
+    },
+    "EX": {
+        "long": "Book of Exodus",
+        "short": "Exodus",
+        "tiny": "Exod"
+    },
+    "LV": {
+        "long": "Book of Leviticus",
+        "short": "Leviticus",
+        "tiny": "Lev"
+    },
+    "NB": {
+        "long": "Book of Numbers",
+        "short": "Numbers",
+        "tiny": "Num"
+    },
+    "DT": {
+        "long": "Book of Deuteronomy",
+        "short": "Deuteronomy",
+        "tiny": "Deut"
+    },
+    "JOS": {
+        "long": "Book of Joshua",
+        "short": "Joshua",
+        "tiny": "Josh"
+    },
+    "JG": {
+        "long": "Book of Judges",
+        "short": "Judges",
+        "tiny": "Jdg"
+    },
+    "RT": {
+        "long": "Book of Ruth",
+        "short": "Ruth",
+        "tiny": "Rt"
+    },
+    "1S": {
+        "long": "First Book of Samuel",
+        "short": "1 Samuel",
+        "tiny": "1 Sam"
+    },
+    "2S": {
+        "long": "Second Book of Samuel",
+        "short": "2 Samuel",
+        "tiny": "2 Sam"
+    },
+    "1R": {
+        "long": "First Book of Kings",
+        "short": "1 Kings",
+        "tiny": "1 Kgs"
+    },
+    "2R": {
+        "long": "Second Book of Kings",
+        "short": "2 Kings",
+        "tiny": "2 Kgs"
+    },
+    "1CH": {
+        "long": "First Book of Chronicles",
+        "short": "1 Chronicles",
+        "tiny": "1 Chr"
+    },
+    "2CH": {
+        "long": "Second Book of Chronicles",
+        "short": "2 Chronicles",
+        "tiny": "2 Chr"
+    },
+    "ESD": {
+        "long": "Book of Ezra",
+        "short": "Ezra",
+        "tiny": "Ezr"
+    },
+    "NE": {
+        "long": "Book of Nehemiah",
+        "short": "Nehemiah",
+        "tiny": "Neh"
+    },
+    "TB": {
+        "long": "Book of Tobit",
+        "short": "Tobit",
+        "tiny": "Tob"
+    },
+    "JDT": {
+        "long": "Book of Judith",
+        "short": "Judith",
+        "tiny": "Jdt"
+    },
+    "EST": {
+        "long": "Book of Esther",
+        "short": "Esther",
+        "tiny": "Est"
+    },
+    "1MC": {
+        "long": "First Book of Maccabees",
+        "short": "1 Maccabees",
+        "tiny": "1 Macc"
+    },
+    "2MC": {
+        "long": "Second Book of Maccabees",
+        "short": "2 Maccabees",
+        "tiny": "2 Macc"
+    },
+    "JB": {
+        "long": "Book of Job",
+        "short": "Job",
+        "tiny": "Jb"
+    },
+    "PS": {
+        "long": "Book of Psalms",
+        "short": "Psalms",
+        "tiny": "Ps"
+    },
+    "PR": {
+        "long": "Book of Proverbs",
+        "short": "Proverbs",
+        "tiny": "Prov"
+    },
+    "QOH": {
+        "long": "Book of Ecclesiastes",
+        "short": "Ecclesiastes",
+        "tiny": "Eccl"
+    },
+    "CT": {
+        "long": "Song of Songs",
+        "short": "Song",
+        "tiny": "Sg"
+    },
+    "SG": {
+        "long": "Wisdom of Solomon",
+        "short": "Wisdom",
+        "tiny": "Wis"
+    },
+    "SI": {
+        "long": "Book of Sirach",
+        "short": "Sirach",
+        "tiny": "Sir"
+    },
+    "IS": {
+        "long": "Book of prophet Isaiah",
+        "short": "Isaiah",
+        "tiny": "Is"
+    },
+    "JR": {
+        "long": "Book of prophet Jeremiah",
+        "short": "Jeremiah",
+        "tiny": "Jr"
+    },
+    "LM": {
+        "long": "Lamentations of Jeremiah",
+        "short": "Lamentations",
+        "tiny": "Lam"
+    },
+    "BA": {
+        "long": "Book of prophet Baruch",
+        "short": "Baruch",
+        "tiny": "Bar"
+    },
+    "EZ": {
+        "long": "Book of prophet Ezekiel",
+        "short": "Ezekiel",
+        "tiny": "Ezek"
+    },
+    "DN": {
+        "long": "Book of prophet Daniel",
+        "short": "Daniel",
+        "tiny": "Dn"
+    },
+    "OS": {
+        "long": "Book of prophet Hosea",
+        "short": "Hosea",
+        "tiny": "Hos"
+    },
+    "JL": {
+        "long": "Book of prophet Joel",
+        "short": "Joel",
+        "tiny": "Jl"
+    },
+    "AM": {
+        "long": "Book of prophet Amos",
+        "short": "Amos",
+        "tiny": "Am"
+    },
+    "ABD": {
+        "long": "Book of prophet Obadiah",
+        "short": "Obadiah",
+        "tiny": "Obad"
+    },
+    "JO": {
+        "long": "Book of prophet Jonah",
+        "short": "Jonah",
+        "tiny": "Jon"
+    },
+    "MI": {
+        "long": "Book of prophet Micah",
+        "short": "Micah",
+        "tiny": "Mi"
+    },
+    "NA": {
+        "long": "Book of prophet Nahum",
+        "short": "Nahum",
+        "tiny": "Nah"
+    },
+    "HA": {
+        "long": "Book of prophet Habakkuk",
+        "short": "Habakkuk",
+        "tiny": "Hab"
+    },
+    "SO": {
+        "long": "Book of prophet Zephaniah",
+        "short": "Zephaniah",
+        "tiny": "Zeph"
+    },
+    "AG": {
+        "long": "Book of prophet Haggai",
+        "short": "Haggai",
+        "tiny": "Hag"
+    },
+    "ZC": {
+        "long": "Book of prophet Zechariah",
+        "short": "Zechariah",
+        "tiny": "Zech"
+    },
+    "ML": {
+        "long": "Book of prophet Malachi",
+        "short": "Malachi",
+        "tiny": "Mal"
+    },
+    "MT": {
+        "long": "Gospel According to Matthew",
+        "short": "Matthew",
+        "tiny": "Mt"
+    },
+    "MC": {
+        "long": "Gospel According to Mark",
+        "short": "Mark",
+        "tiny": "Mk"
+    },
+    "LC": {
+        "long": "Gospel According to Luke",
+        "short": "Luke",
+        "tiny": "Lk"
+    },
+    "JN": {
+        "long": "Gospel According to John",
+        "short": "John",
+        "tiny": "Jn"
+    },
+    "AC": {
+        "long": "Acts of the Apostles",
+        "short": "Acts",
+        "tiny": "Ac"
+    },
+    "RM": {
+        "long": "Epistle to the Romans",
+        "short": "Romans",
+        "tiny": "Rom"
+    },
+    "1CO": {
+        "long": "First Epistle to the Corinthians",
+        "short": "1 Corinthians",
+        "tiny": "1 Cor"
+    },
+    "2CO": {
+        "long": "Second Epistle to the Corinthians",
+        "short": "2 Corinthians",
+        "tiny": "2 Cor"
+    },
+    "GAL": {
+        "long": "Epistle to the Galatians",
+        "short": "Galatians",
+        "tiny": "Gal"
+    },
+    "EPH": {
+        "long": "Epistle to the Ephesians",
+        "short": "Ephesians",
+        "tiny": "Eph"
+    },
+    "PH": {
+        "long": "Epistle to the Philippians",
+        "short": "Philippians",
+        "tiny": "Phil"
+    },
+    "COL": {
+        "long": "Epistle to the Colossians",
+        "short": "Colossians",
+        "tiny": "Col"
+    },
+    "1TH": {
+        "long": "First Epistle to the Thessalonians",
+        "short": "1 Thessalonians",
+        "tiny": "1 Thess"
+    },
+    "2TH": {
+        "long": "Second Epistle to the Thessalonians",
+        "short": "2 Thessalonians",
+        "tiny": "2 Thess"
+    },
+    "1TM": {
+        "long": "First Epistle to Timothy",
+        "short": "1 Timothy",
+        "tiny": "1 Tim"
+    },
+    "2TM": {
+        "long": "Second Epistle to Timothy",
+        "short": "2 Timothy",
+        "tiny": "2 Tim"
+    },
+    "TT": {
+        "long": "Epistle to Titus",
+        "short": "Titus",
+        "tiny": "Tt"
+    },
+    "PHM": {
+        "long": "Epistle to Philemon",
+        "short": "Philemon",
+        "tiny": "Phm"
+    },
+    "HB": {
+        "long": "Epistle to the Hebrews",
+        "short": "Hebrews",
+        "tiny": "Heb"
+    },
+    "JC": {
+        "long": "Epistle of James",
+        "short": "James",
+        "tiny": "Jm"
+    },
+    "1P": {
+        "long": "First Epistle of Peter",
+        "short": "1 Peter",
+        "tiny": "1 Pet"
+    },
+    "2P": {
+        "long": "Second Epistle of Peter",
+        "short": "2 Peter",
+        "tiny": "2 Pet"
+    },
+    "1JN": {
+        "long": "First Epistle of John",
+        "short": "1 Jn",
+        "tiny": "1 Jn"
+    },
+    "2JN": {
+        "long": "Second Epistle of John",
+        "short": "2 John",
+        "tiny": "2 Jn"
+    },
+    "3JN": {
+        "long": "Third Epistle of John",
+        "short": "3 Jn",
+        "tiny": "3 Jn"
+    },
+    "JD": {
+        "long": "Epistle of Jude",
+        "short": "Jude",
+        "tiny": "Ju"
+    },
+    "AP": {
+        "long": "Book of Revelation",
+        "short": "Revelation",
+        "tiny": "Rev"
+    }
+}

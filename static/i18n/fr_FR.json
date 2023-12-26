@@ -1,0 +1,367 @@
+{
+    "GN": {
+        "long": "Livre de la Génèse",
+        "short": "Génèse",
+        "tiny": "Gn"
+    },
+    "EX": {
+        "long": "Livre de l'Exode",
+        "short": "Exode",
+        "tiny": "Ex"
+    },
+    "LV": {
+        "long": "Livre du Lévitique",
+        "short": "Lévitique",
+        "tiny": "Lv"
+    },
+    "NB": {
+        "long": "Livre des Nombres",
+        "short": "Nombres",
+        "tiny": "Nb"
+    },
+    "DT": {
+        "long": "Livre du Deutéronome",
+        "short": "Deutéronome",
+        "tiny": "Dt"
+    },
+    "JOS": {
+        "long": "Livre de Josué",
+        "short": "Josué",
+        "tiny": "Jos"
+    },
+    "JG": {
+        "long": "Livre des Juges",
+        "short": "Juges",
+        "tiny": "Jg"
+    },
+    "RT": {
+        "long": "Livre de Ruth",
+        "short": "Ruth",
+        "tiny": "Rt"
+    },
+    "1S": {
+        "long": "Premier livre de Samuel",
+        "short": "1 Samuel",
+        "tiny": "1 S"
+    },
+    "2S": {
+        "long": "Deuxième livre de Samuel",
+        "short": "2 Samuel",
+        "tiny": "2 S"
+    },
+    "1R": {
+        "long": "Premier livre des Rois",
+        "short": "1 Rois",
+        "tiny": "1 R"
+    },
+    "2R": {
+        "long": "Deuxième livre des Rois",
+        "short": "2 Rois",
+        "tiny": "2 R"
+    },
+    "1CH": {
+        "long": "Premier livre des Chroniques",
+        "short": "1 Chroniques",
+        "tiny": "1 Ch"
+    },
+    "2CH": {
+        "long": "Deuxième livre des Chroniques",
+        "short": "2 Chroniques",
+        "tiny": "2 Ch"
+    },
+    "ESD": {
+        "long": "Livre d'Esdras",
+        "short": "Esdras",
+        "tiny": "Esd"
+    },
+    "NE": {
+        "long": "Livre de Néhémie",
+        "short": "Néhémie",
+        "tiny": "Ne"
+    },
+    "TB": {
+        "long": "Livre de Tobie",
+        "short": "Tobie",
+        "tiny": "Tb"
+    },
+    "JDT": {
+        "long": "Livre de Judith",
+        "short": "Judith",
+        "tiny": "Jdt"
+    },
+    "EST": {
+        "long": "Livre d'Esther",
+        "short": "Esther",
+        "tiny": "Est"
+    },
+    "1MC": {
+        "long": "Premier livre des Martyrs d'Israël",
+        "short": "1 Martyrs d'Israël",
+        "tiny": "1 Mc"
+    },
+    "2MC": {
+        "long": "Deuxième livre des Martyrs d'Israël",
+        "short": "2 Martyrs d'Israël",
+        "tiny": "2 Mc"
+    },
+    "JB": {
+        "long": "Livre de Job",
+        "short": "Job",
+        "tiny": "Jb"
+    },
+    "PS": {
+        "long": "Livre des Psaumes",
+        "short": "Psaumes",
+        "tiny": "Ps"
+    },
+    "PR": {
+        "long": "Livre des Proverbes",
+        "short": "Proverbes",
+        "tiny": "Pr"
+    },
+    "QOH": {
+        "long": "L'Ecclesiaste",
+        "short": "Ecclesiaste",
+        "tiny": "Qoh"
+    },
+    "CT": {
+        "long": "Cantique des Cantiques",
+        "short": "Cantiques",
+        "tiny": "Ct"
+    },
+    "SG": {
+        "long": "Sagesse de Salomon",
+        "short": "Sagesse",
+        "tiny": "Sg"
+    },
+    "SI": {
+        "long": "L'Ecclésiatique",
+        "short": "Siracide",
+        "tiny": "Si"
+    },
+    "IS": {
+        "long": "Livre du prophète Isaie",
+        "short": "Isaie",
+        "tiny": "Is"
+    },
+    "JR": {
+        "long": "Livre du prophète Jérémie",
+        "short": "Jérémie",
+        "tiny": "Jr"
+    },
+    "LM": {
+        "long": "Lamentations de Jérémie",
+        "short": "Lamentations",
+        "tiny": "Lm"
+    },
+    "BA": {
+        "long": "Livre du prophète Baruch",
+        "short": "Baruch",
+        "tiny": "Ba"
+    },
+    "EZ": {
+        "long": "Livre du prophète Ezékiel",
+        "short": "Ezékiel",
+        "tiny": "Ez"
+    },
+    "DN": {
+        "long": "Livre du prophète Daniel",
+        "short": "Daniel",
+        "tiny": "Dn"
+    },
+    "OS": {
+        "long": "Livre du prophète Osée",
+        "short": "Osée",
+        "tiny": "Os"
+    },
+    "JL": {
+        "long": "Livre du prophète Joel",
+        "short": "Joel",
+        "tiny": "Jl"
+    },
+    "AM": {
+        "long": "Livre du prophète Amos",
+        "short": "Amos",
+        "tiny": "Am"
+    },
+    "ABD": {
+        "long": "Livre du prophète Abdias",
+        "short": "Abdias",
+        "tiny": "Abd"
+    },
+    "JO": {
+        "long": "Livre du prophète Jonas",
+        "short": "Jonas",
+        "tiny": "Jo"
+    },
+    "MI": {
+        "long": "Livre du prophète Michée",
+        "short": "Michée",
+        "tiny": "Mi"
+    },
+    "NA": {
+        "long": "Livre du prophète Nahum",
+        "short": "Nahum",
+        "tiny": "Na"
+    },
+    "HA": {
+        "long": "Livre du prophète Habaquq",
+        "short": "Habaquq",
+        "tiny": "Ha"
+    },
+    "SO": {
+        "long": "Livre du prophète Sophonie",
+        "short": "Sophonie",
+        "tiny": "So"
+    },
+    "AG": {
+        "long": "Livre du prophète Aggée",
+        "short": "Aggée",
+        "tiny": "Ag"
+    },
+    "ZC": {
+        "long": "Livre du prophète Zacharie",
+        "short": "Zacharie",
+        "tiny": "Zc"
+    },
+    "ML": {
+        "long": "Livre du prophète Malachie",
+        "short": "Malachie",
+        "tiny": "Ml"
+    },
+    "MT": {
+        "long": "Évangile selon saint Matthieu",
+        "short": "Matthieu",
+        "tiny": "Mt"
+    },
+    "MC": {
+        "long": "Évangile selon saint Marc",
+        "short": "Marc",
+        "tiny": "Mc"
+    },
+    "LC": {
+        "long": "Évangile selon saint Luc",
+        "short": "Luc",
+        "tiny": "Lc"
+    },
+    "JN": {
+        "long": "Évangile selon saint Jean",
+        "short": "Jean",
+        "tiny": "Jn"
+    },
+    "AC": {
+        "long": "Actes des Apôtres",
+        "short": "Actes",
+        "tiny": "Ac"
+    },
+    "RM": {
+        "long": "Épitre aux Romains",
+        "short": "Romains",
+        "tiny": "Rm"
+    },
+    "1CO": {
+        "long": "Première épitre aux Corinthiens",
+        "short": "1 Corinthiens",
+        "tiny": "1 Co"
+    },
+    "2CO": {
+        "long": "Deuxième épitre aux Corinthiens",
+        "short": "2 Corinthiens",
+        "tiny": "2 Co"
+    },
+    "GAL": {
+        "long": "Épitre aux Galates",
+        "short": "Galates",
+        "tiny": "Ga"
+    },
+    "EPH": {
+        "long": "Épitre aux Ephésiens",
+        "short": "Ephésiens",
+        "tiny": "Ep"
+    },
+    "PH": {
+        "long": "Épitre aux Philippiens",
+        "short": "Philippiens",
+        "tiny": "Ph"
+    },
+    "COL": {
+        "long": "Épitre aux Colossiens",
+        "short": "Colossiens",
+        "tiny": "Col"
+    },
+    "1TH": {
+        "long": "Première épitre aux Thessaloniciens",
+        "short": "1 Thessaloniciens",
+        "tiny": "1 Th"
+    },
+    "2TH": {
+        "long": "Deuxième épitre aux Thessaloniciens",
+        "short": "2 Thessaloniciens",
+        "tiny": "2 Th"
+    },
+    "1TM": {
+        "long": "Première épitre à Timothée",
+        "short": "1 Timothée",
+        "tiny": "1 Tm"
+    },
+    "2TM": {
+        "long": "Deuxième épitre à Timothée",
+        "short": "2 Timothée",
+        "tiny": "2 Tm"
+    },
+    "TT": {
+        "long": "Épitre à Tite",
+        "short": "Tite",
+        "tiny": "Tt"
+    },
+    "PHM": {
+        "long": "Épitre à Philémon",
+        "short": "Philémon",
+        "tiny": "Phm"
+    },
+    "HB": {
+        "long": "Épitre aux Hébreux",
+        "short": "Hébreux",
+        "tiny": "Hb"
+    },
+    "JC": {
+        "long": "Épitre de saint Jacques",
+        "short": "Jacques",
+        "tiny": "Jc"
+    },
+    "1P": {
+        "long": "Première épitre de saint Pierre",
+        "short": "1 Pierre",
+        "tiny": "1 P"
+    },
+    "2P": {
+        "long": "Deuxième épitre de saint Pierre",
+        "short": "2 Pierre",
+        "tiny": "2 P"
+    },
+    "1JN": {
+        "long": "Première épitre de saint Jean",
+        "short": "1 Jean",
+        "tiny": "1 Jn"
+    },
+    "2JN": {
+        "long": "Deuxième épitre de saint Jean",
+        "short": "2 Jean",
+        "tiny": "2 Jn"
+    },
+    "3JN": {
+        "long": "Troisième épitre de saint Jean",
+        "short": "3 Jean",
+        "tiny": "3 Jn"
+    },
+    "JD": {
+        "long": "Épitre de saint Jude",
+        "short": "Jude",
+        "tiny": "Jd"
+    },
+    "AP": {
+        "long": "Apocalypse de saint Jean",
+        "short": "Apocalypse",
+        "tiny": "Ap"
+    }
+}
