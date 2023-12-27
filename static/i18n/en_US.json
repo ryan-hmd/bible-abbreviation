@@ -104,6 +104,16 @@
         "short": "2 Maccabees",
         "tiny": "2 Macc"
     },
+    "3MC": {
+        "long": "Third Book of Maccabees",
+        "short": "3 Maccabees",
+        "tiny": "3 Macc"
+    },
+    "4MC": {
+        "long": "Fourth Book of Maccabees",
+        "short": "4 Maccabees",
+        "tiny": "4 Macc"
+    },
     "JB": {
         "long": "Book of Job",
         "short": "Job",

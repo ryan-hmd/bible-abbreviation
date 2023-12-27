@@ -96,13 +96,23 @@
     },
     "1MC": {
         "long": "Premier livre des Martyrs d'Israël",
-        "short": "1 Martyrs d'Israël",
+        "short": "1 Maccabées",
         "tiny": "1 Mc"
     },
     "2MC": {
         "long": "Deuxième livre des Martyrs d'Israël",
-        "short": "2 Martyrs d'Israël",
+        "short": "2 Maccabées",
         "tiny": "2 Mc"
+    },
+    "3MC": {
+        "long": "Troisième livre des Martyrs d'Israël",
+        "short": "3 Maccabées",
+        "tiny": "3 Mc"
+    },
+    "4MC": {
+        "long": "Deuxième livre des Martyrs d'Israël",
+        "short": "4 Maccabées",
+        "tiny": "4 Mc"
     },
     "JB": {
         "long": "Livre de Job",
