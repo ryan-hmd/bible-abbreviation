@@ -11,3 +11,6 @@ interface BookTitle {
 interface BookTitleMap {
     [key: string]: BookTitle;
 }
+
+type Lang = "en" | "fr";
+type Size = "long" | "short" | "tiny";
