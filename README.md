@@ -11,8 +11,7 @@ Easily obtain the universal identifiers and full names of the books of the Bible
     -   [Get universal book tag](#first-feature)
     -   [Get title for a given book](#second-feature)
     -   [Error handling](#error-handling)
--   [Internationalization](#languages)
--   [Notes](#notes)
+-   [Internationalization](#languages) b
 -   [Contribute](#contribute)
 -   [License](#license)
 
@@ -28,9 +27,20 @@ npm install bible-abbreviation
 
 ## 📑 Usage
 
+The module export two item :
+
+-   A ready to use instance of `Abbreviator` as default export
+-   The `Abbreviator` class itself
+
+Most of the time, you juste have to import the default export and use it. The class is designed so that parameters can be modified at any time, so it's' theoretically unnecessary to instantiate multiple `Abbreviator` objects, but if you need more than one instance you can import the class itself. Keep in mind that as each instance of `Abbreviator` loads a JSON file from the i18n folder, so it's strongly recommended not to instantiate multiple objects of the `Abbreviator` class for performance optimization reasons.
+
 ```js
-import { Abbreviator } from "bible-abbreviation";
+import abbrv from "bible-abbreviation"; // for the ready to use instance
+import { Abbreviator } from "bible-abbreviation"; // for the class itself
+import abbrv, { Abbreviator } from "bible-abbreviation"; // for both
 ```
+
+In the rest of the documentation, we will use the default export.
 
 <a name="first-feature"></a>
 
@@ -39,7 +49,6 @@ import { Abbreviator } from "bible-abbreviation";
 The first feature of the Abbreviator is the `getTag` method, which provides a universal code for a Bible book based on an abbreviation you give it:
 
 ```js
-const abbrv = new Abbreviator();
 const matthewTag = abbrv.getTag("Matthew");
 console.log(matthewTag); // output : 'MT'
 ```
@@ -53,7 +62,6 @@ This method supports a very wide variety of abbreviations, for example `MT` will
 The second feature of this module is the `getTitle` method, which generates a title **in a given language and format**, for a book given as a parameter:
 
 ```js
-const abbrv = new Abbreviator();
 const matthewTitle = abbrv.getTitle("Matt");
 console.log(matthewTitle); // output : 'Matthew'
 ```
@@ -62,7 +70,6 @@ By default, the Abbreviator is set to English, but **you can also directly insta
 
 ```js
 // abbreviator in french
-const abbrv = new Abbreviator("fr");
 const matthewTitle = abbrv.getTitle("Matt");
 console.log(matthewTitle); // output : 'Matthieu'
 ```
@@ -70,16 +77,30 @@ console.log(matthewTitle); // output : 'Matthieu'
 You can of course **change the language at any time** by using the `setLang` method on the instantiated object.
 
 ```js
-const abbrv = new Abbreviator(); // abbrv in english
+import abbrv from "bible-abbreviation"; // abbrv in english by default
 abbrv.setLang("fr"); // abbrv is now in french
+```
+
+For those who need to use the constructor, you instantiate directly with the language of your choice (english will be used if nothing is specified) :
+
+```js
+import { Abbreviator } from "bible-abbreviation";
+const abbrv = new Abbreviator("fr"); // instantiated in french
+abbrv.setLang("en"); // abbrv is now in english
 ```
 
 By default, the title format is set to `short`, but **you can set the default format** to `long`, `short` or `tiny` at any time according to your preference using the `setSize` method:
 
 ```js
-const abbrv = new Abbreviator();
 abbrv.setSize("long"); // abbrv's title size are now set to 'long'
 const matthewTitle = abbrv.getTitle("Matt");
+console.log(matthewTitle); // output : Gospel according to Matthew
+```
+
+Of course, you can chain these methods for better readability :
+
+```js
+const matthewTitle = abbrv.setSize("long").getTitle("Matt"); // abbrv's title size are now persistantly set to 'long' and we return a result in this size
 console.log(matthewTitle); // output : Gospel according to Matthew
 ```
 
@@ -89,11 +110,10 @@ Here's the different available formats
 -   `short` — Short book title (ex: 2 _Thess → 2 Thessalonians_)
 -   `tiny` — Abbréviation standard (ex: _Genesis → Gn_)
 
-You can also **access a particular format without having to change the default value** by providing the desired size as the second parameter of the `getTitle` function:
+You can also access a particular format **without having to change the default value persistantly** by providing the desired size as the second parameter of the `getTitle` function:
 
 ```js
-const abbrv = new Abbreviator();
-abbrv.setSize("long"); // abbrv's title size are now set to 'long'
+abbrv.setSize("long"); // abbrv's title size are now persistantly set to 'long'
 
 let matthewTitle = abbrv.getTitle("Matt", "short"); // return a short title even if you set size to long because you explicitly asked for a short size here
 console.log(matthewTitle); // output : "Matthew"
@@ -106,21 +126,13 @@ console.log(matthewTitle); // output : Gospel according to Matthew
 
 ### ⚡ Error handling
 
-For a better user experience, the `Abbreviator` class methods don't throw any exceptions. The `getTag` and `getTitle` methods will return `null` if the book provided as a parameter does not exist. For `getTitle`, if the given format is unknown, the default parameter previously defined (by the constructor or by you) will be used. In the same way, for `setSize` and `setLang`, if the respective parameters provided are not supported, the default parameters will be reset to their initial values, `short` and `en_US` respectively. Finally, to optimize loading of i18n data, if you try to set the language to the same value as the current one, the class will detect it and will not make any changes.
+For a better user experience, the `Abbreviator` class methods don't throw any exceptions. The `getTag` and `getTitle` methods will return `null` if the book provided as a parameter does not exist. For `getTitle`, if the given format is unknown, the default parameter previously defined (by the constructor or by you) will be used. In the same way, for `setSize` and `setLang`, if the respective parameters provided are not supported, the default parameters will be reset to their initial values, `short` and `en` respectively. Finally, to optimize loading of i18n data, if you try to set the language to the same value as the current one, the class will detect it and will not make any changes.
 
 <a name="languages"></a>
 
 ## 🌍 Internationalization
 
 English and French are the only two languages supported at the moment. We'll be working on integrating other languages in the future, but if you'd like to see a language available on the module quickly, please open a PR on our [Github](https://github.com/ryan-hmd/bible-abbreviation/pulls).
-
-<a name="notes"></a>
-
-## ❓ Notes
-
-As the class is designed so that parameters can be modified at any time, it is theoretically unnecessary to instantiate multiple `Abbreviator` objects. As each instance of `Abbreviator` loads a JSON file in the corresponding language, it is strongly recommended not to instantiate multiple objects of the `Abbreviator` class for performance optimization reasons.
-
-We're working on a new structure for the i18n internationalization folder to optimize data loading. This improvement is not a high priority, since the module currently supports only two languages, but the release of this optimization will be backward-compatible.
 
 <a name="contribute"></a>
 
