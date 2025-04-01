@@ -38,7 +38,7 @@ class Abbreviator {
     }
 
     /**
-     * Set the default language for titles. Constructor set the default language to `en_US`.
+     * Set the default language for titles. Constructor set the default language to `en`.
      *
      * Below the supported languages :
      * - English : `en` or `english`
@@ -105,12 +105,12 @@ class Abbreviator {
         const tag = this.getTag(book);
         if (!tag) return null;
         switch (size?.toLowerCase()) {
+            case "short":
+                return this.#translations[tag].short;
             case "long":
                 return this.#translations[tag].long;
             case "tiny":
                 return this.#translations[tag].tiny;
-            case "short":
-                return this.#translations[tag].short;
             default:
                 return this.#translations[tag][this.#size];
         }
