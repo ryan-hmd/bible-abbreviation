@@ -1,3 +1,1 @@
-export {
-    Abbreviator
-} from './nameServices'
+export { Abbreviator } from "./nameServices";
