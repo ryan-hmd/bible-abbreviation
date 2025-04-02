@@ -11,7 +11,7 @@ Easily obtain the universal identifiers and full names of the books of the Bible
     -   [Get universal book tag](#first-feature)
     -   [Get title for a given book](#second-feature)
     -   [Error handling](#error-handling)
--   [Internationalization](#languages) b
+-   [Internationalization](#languages)
 -   [Contribute](#contribute)
 -   [License](#license)
 
